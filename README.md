@@ -1,6 +1,12 @@
-#Repository for Learning Containerization - Docker
+# Repository for Learning Containerization - Docker
 
 this repository is created for learning and understanding containerization using Docker.
+
+# prerequisites 
+- Learn basics of CI/CD , Jenkins , Docker , DockerImages etc.
+- Learn Dockerfile components: [FROM, EXPOSE, RUN, ADD, MAINTAINER, ENTRYPOINT, CMD, ENV, COPY, WORKDIR]
+- Learn Docker commands: [list image, build image, remove image, run container, list running containers, stop/kill running container, remove all images, login, logout]
+
 
 Repository Contents
 
@@ -15,7 +21,7 @@ To get started with learning containerization using Docker and utilizing this re
     Set up Jenkins Pipeline: Configure Jenkins and create a new pipeline job. The Jenkins pipeline script provided in this repository can be used as a starting point. Customize it as per your requirements and configure any necessary credentials for Docker login.
     Execute the Pipeline: Run the Jenkins pipeline job to trigger the build process. The pipeline script will perform the following tasks:
         Check out the code from the repository
-        Build the Maven or .NET code
+        Build the Maven code
         Execute unit tests
         Perform code analysis
         Log in to DockerHub
@@ -30,4 +36,4 @@ Contributions to this repository are welcome. If you have any improvements, bug 
 
 Contact
 
-If you have any questions, suggestions, or feedback, please feel free to contact @nusairtech@gmail.com . I appreciate your interest and involvement in learning containerization with Docker.
+If you have any questions, suggestions, or feedback, please feel free to contact @ nusairtech@gmail.com . I appreciate your interest and involvement in learning containerization with Docker.
